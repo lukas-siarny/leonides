@@ -1,0 +1,84 @@
+/*
+  MostraNuova
+*/
+
+// Regular
+@font-face {
+  font-family: "MostraNuova";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../elements/fonts/MostraNuova-Regular.eot");
+  src: url("../../elements/fonts/MostraNuova-Regular.woff") format("woff"),
+    url("../../elements/fonts/MostraNuova-Regular.ttf") format("truetype"),
+    url("../../elements/fonts/MostraNuova-Regular.svg#filename") format("svg");
+}
+
+// Bold
+@font-face {
+  font-family: "MostraNuova";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../../elements/fonts/MostraNuova-Bold.eot");
+  src: url("../../elements/fonts/MostraNuova-Bold.woff") format("woff"),
+    url("../../elements/fonts/MostraNuova-Bold.ttf") format("truetype"),
+    url("../../elements/fonts/MostraNuova-Bold.svg#filename") format("svg");
+}
+
+// Light
+@font-face {
+  font-family: "MostraNuova";
+  font-weight: 100;
+  font-style: normal;
+  src: url("../../elements/fonts/MostraNuova-Light.eot");
+  src: url("../../elements/fonts/MostraNuova-Light.woff") format("woff"),
+    url("../../elements/fonts/MostraNuova-Light.ttf") format("truetype"),
+    url("../../elements/fonts/MostraNuova-Light.svg#filename") format("svg");
+}
+
+/*
+  MyriadPro
+*/
+
+// Regular
+@font-face {
+  font-family: "MyriadPro";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../../elements/fonts/MyriadPro-Regular.eot");
+  src: url("../../elements/fonts/MyriadPro-Regular.woff") format("woff"),
+    url("../../elements/fonts/MyriadPro-Regular.ttf") format("truetype"),
+    url("../../elements/fonts/MyriadPro-Regular.svg#filename") format("svg");
+}
+
+// Regular - italic
+@font-face {
+  font-family: "MyriadPro";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../../elements/fonts/MyriadPro-It.eot");
+  src: url("../../elements/fonts/MyriadPro-It.woff") format("woff"),
+    url("../../elements/fonts/MyriadPro-It.ttf") format("truetype"),
+    url("../../elements/fonts/MyriadPro-It.svg#filename") format("svg");
+}
+
+// Light
+@font-face {
+  font-family: "MyriadPro";
+  font-weight: 100;
+  font-style: normal;
+  src: url("../../elements/fonts/MyriadPro-Light.eot");
+  src: url("../../elements/fonts/MyriadPro-Light.woff") format("woff"),
+    url("../../elements/fonts/MyriadPro-Light.ttf") format("truetype"),
+    url("../../elements/fonts/MyriadPro-Light.svg#filename") format("svg");
+}
+
+// Light - italic
+@font-face {
+  font-family: "MyriadPro";
+  font-weight: 100;
+  font-style: italic;
+  src: url("../../elements/fonts/MyriadPro-LightIt.eot");
+  src: url("../../elements/fonts/MyriadPro-LightIt.woff") format("woff"),
+    url("../../elements/fonts/MyriadPro-LightIt.ttf") format("truetype"),
+    url("../../elements/fonts/MyriadPro-LightIt.svg#filename") format("svg");
+}

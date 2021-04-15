@@ -1,0 +1,350 @@
+.contact {
+  position: relative;
+  z-index: 10;
+  padding-top: 15rem;
+
+  @media (min-width: 600px) {
+    padding-top: 32vw;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../../elements/images/bg-contact-circles.svg") no-repeat
+      left top;
+    background-size: 64vw auto;
+    z-index: 1;
+    opacity: 0.75;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 10vw;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../../elements/images/bg-contact.svg") no-repeat left top;
+    background-size: cover;
+    z-index: 2;
+
+    @media (min-width: 1440px) {
+      background-size: 100%;
+    }
+  }
+
+  &__paralax {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url("../../elements/assets/paralax/bg-contact.jpg") no-repeat
+      center top;
+    background-size: 100% auto;
+    //background-attachment: fixed;
+    opacity: 0.5;
+  }
+
+  &__logo-wrapper {
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16rem;
+  }
+
+  &__title-wrapper {
+    z-index: 3;
+    @include title-wrapper("../../elements/images/header-contact.svg");
+  }
+
+  &__content-wrapper {
+    width: 100%;
+    max-width: 90rem;
+    padding: 0 2rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+  }
+
+  &__address {
+    text-align: center;
+    width: 100%;
+    margin-top: 5vw;
+    transform: translateY(15rem);
+    opacity: 0;
+
+    & span {
+      color: $colorPrimary;
+    }
+
+    @media (max-width: 450px) {
+      font-size: 1rem;
+    }
+  }
+
+  &__in-view {
+    animation: slideUp 750ms ease-in-out forwards;
+  }
+}
+
+.form {
+  line-height: 1;
+  transform: translateY(15rem);
+  opacity: 0;
+  padding-bottom: 18rem;
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 600px) {
+      flex-direction: row;
+    }
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12rem;
+    margin-bottom: 3rem;
+
+    @media (min-width: 600px) {
+      flex: 1 1 50%;
+      height: auto;
+      margin-right: 1rem;
+      margin-bottom: 0;
+    }
+
+    & .form__error {
+      padding-left: 0.5rem;
+    }
+  }
+
+  &__right {
+    height: 12rem;
+    position: relative;
+
+    @media (min-width: 600px) {
+      flex: 1 1 50%;
+      margin-left: 1rem;
+    }
+  }
+
+  & input {
+    display: block;
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: none;
+    outline: none;
+    color: $colorPrimary;
+    font-family: MyriadPro;
+    font-size: 1rem;
+    position: relative;
+    z-index: 3;
+    transition: 250ms ease-in-out;
+  }
+
+  &__input {
+    position: relative;
+
+    & label {
+      position: absolute;
+      top: 0.5rem;
+      left: 0.5rem;
+      text-transform: uppercase;
+      transition: 250ms ease-in-out;
+      font-weight: 400;
+    }
+  }
+
+  &__label-change {
+    & label {
+      top: -1rem;
+      font-size: 0.75rem;
+    }
+  }
+
+  & textarea {
+    resize: none;
+    height: 100%;
+    width: 100%;
+    border: 2px solid $colorSecondary;
+    outline: none;
+    color: $colorPrimary;
+    font-family: MyriadPro;
+    font-size: 1rem;
+    padding: 1rem;
+    transition: 250ms ease-in-out;
+    background: transparent;
+
+    &:hover,
+    &:focus {
+      border: 2px solid $colorAccent;
+    }
+
+    &::placeholder {
+      text-transform: uppercase;
+      color: $colorPrimary;
+    }
+  }
+
+  &__submit {
+    margin-top: 8rem;
+    width: 100%;
+    flex: 0 0 100%;
+    position: relative;
+    height: 3rem;
+  }
+
+  & input[type="text"] {
+    padding-left: 0.5rem;
+    height: 2rem;
+    border-bottom: 2px solid $colorSecondary;
+
+    &:hover,
+    &:focus {
+      border-bottom: 2px solid $colorAccent;
+    }
+  }
+
+  &__submit-button-wrapper {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+
+    &::before {
+      position: absolute;
+      content: "";
+      display: block;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: $colorSecondary;
+      transition: 250ms ease-in-out;
+    }
+
+    &:hover {
+      &::before {
+        height: 10px;
+        background: $colorAccent;
+      }
+    }
+  }
+
+  & input[type="submit"] {
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 100%;
+    border-bottom: none;
+  }
+
+  &__success,
+  &__submitting {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    opacity: 0;
+    transition: 250ms ease-in-out;
+  }
+
+  &__success {
+    color: $colorSuccess;
+    text-align: center;
+    cursor: pointer;
+
+    &::before {
+      position: absolute;
+      content: "";
+      display: block;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: $colorSuccess;
+      transition: 250ms ease-in-out;
+      z-index: 1;
+    }
+
+    &:hover {
+      &::before {
+        height: 10px;
+      }
+    }
+  }
+
+  &__submitting {
+    background: url("../../../elements/images/form-loader.gif") no-repeat center
+      center;
+    background-size: auto 80%;
+    z-index: 2;
+  }
+
+  &__error {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 0;
+    color: $colorError;
+    opacity: 0;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: 250ms ease-in-out;
+  }
+
+  &__has-error {
+    & .form__error {
+      opacity: 1;
+      transform: scale(1, 1);
+    }
+  }
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__logo {
+    width: 10rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__copyright {
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    padding-top: 2.5rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 100%;
+      transform: translateX(-50%);
+      height: 2rem;
+      background: url("../../../elements/images/ornament.svg") no-repeat center
+        center;
+      background-size: 100% auto;
+    }
+  }
+}

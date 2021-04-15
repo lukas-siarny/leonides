@@ -1,0 +1,70 @@
+@import "colors";
+@import "fonts";
+@import "titles";
+@import "animations";
+
+/* 
+  general styles 
+*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+
+  @media (min-width: 600px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1980px) {
+    font-size: 24px;
+  }
+
+  @media (min-width: 3000px) {
+    font-size: 36px;
+  }
+}
+
+body {
+  background: silver url("../../elements/images/bg-black.svg") repeat center top;
+  background-size: 100%;
+  font-family: MyriadPro;
+  font-weight: 100;
+  color: $colorPrimary;
+  line-height: 1.5;
+  min-height: 100vh;
+  font-smooth: antialiased;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+strong {
+  font-weight: 600;
+  color: $colorSecondary;
+  font-style: italic;
+}
+
+.in-view {
+  animation: slideUp 750ms ease-in-out forwards;
+}
+
+@mixin textShadow() {
+  text-shadow: 0px 0px 5px rgba(150, 150, 150, 0.25);
+}
+
+/*
+  Navigation
+*/
+@import "navigation";
+
+/*
+  Sections
+*/
+@import "sections";

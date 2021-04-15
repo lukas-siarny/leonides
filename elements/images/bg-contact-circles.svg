@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="700.075px" height="567.578px" viewBox="0 0 700.075 567.578" enable-background="new 0 0 700.075 567.578"
+	 xml:space="preserve">
+<g id="black_bg2_4_">
+	<g>
+		<g>
+			
+				<linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="1528.7662" y1="-2384.2859" x2="2210.0012" y2="-3564.2195" gradientTransform="matrix(0.7071 0.7071 -0.7071 0.7071 -3400.4216 665.1037)">
+				<stop  offset="0" style="stop-color:#80602F"/>
+				<stop  offset="0.0755" style="stop-color:#8F703C"/>
+				<stop  offset="0.258" style="stop-color:#AF9157"/>
+				<stop  offset="0.4097" style="stop-color:#C3A668"/>
+				<stop  offset="0.511" style="stop-color:#CAAD6E"/>
+				<stop  offset="0.6113" style="stop-color:#C5A86A"/>
+				<stop  offset="0.733" style="stop-color:#B7995E"/>
+				<stop  offset="0.8657" style="stop-color:#9F814A"/>
+				<stop  offset="1" style="stop-color:#80602F"/>
+			</linearGradient>
+			
+				<circle id="XMLID_98_" fill="none" stroke="url(#XMLID_3_)" stroke-width="36.2599" stroke-miterlimit="10" cx="24.546" cy="-116.157" r="663.067"/>
+			
+				<circle id="XMLID_97_" display="none" fill="none" stroke="#0A70B9" stroke-miterlimit="10" cx="79.023" cy="-331.68" r="548.53"/>
+			
+				<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="-340.6897" y1="827.1632" x2="762.5255" y2="827.1632" gradientTransform="matrix(4.489700e-011 1 -1 4.489700e-011 807.1867 -347.5982)">
+				<stop  offset="0" style="stop-color:#80602F"/>
+				<stop  offset="0.0755" style="stop-color:#8F703C"/>
+				<stop  offset="0.258" style="stop-color:#AF9157"/>
+				<stop  offset="0.4097" style="stop-color:#C3A668"/>
+				<stop  offset="0.511" style="stop-color:#CAAD6E"/>
+				<stop  offset="0.6113" style="stop-color:#C5A86A"/>
+				<stop  offset="0.733" style="stop-color:#B7995E"/>
+				<stop  offset="0.8657" style="stop-color:#9F814A"/>
+				<stop  offset="1" style="stop-color:#80602F"/>
+			</linearGradient>
+			
+				<circle id="XMLID_2_" fill="none" stroke="url(#XMLID_4_)" stroke-width="6.0433" stroke-miterlimit="10" cx="-19.977" cy="-136.68" r="548.53"/>
+			
+				<linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="1501.4161" y1="-2530.3831" x2="2022.6367" y2="-3433.1636" gradientTransform="matrix(0.7071 0.7071 -0.7071 0.7071 -3322.3059 638.9774)">
+				<stop  offset="0" style="stop-color:#80602F"/>
+				<stop  offset="0.0755" style="stop-color:#8F703C"/>
+				<stop  offset="0.258" style="stop-color:#AF9157"/>
+				<stop  offset="0.4097" style="stop-color:#C3A668"/>
+				<stop  offset="0.511" style="stop-color:#CAAD6E"/>
+				<stop  offset="0.6113" style="stop-color:#C5A86A"/>
+				<stop  offset="0.733" style="stop-color:#B7995E"/>
+				<stop  offset="0.8657" style="stop-color:#9F814A"/>
+				<stop  offset="1" style="stop-color:#80602F"/>
+			</linearGradient>
+			
+				<circle id="XMLID_96_" fill="none" stroke="url(#XMLID_5_)" stroke-width="18.1299" stroke-miterlimit="10" cx="32.067" cy="-223.514" r="512.126"/>
+		</g>
+	</g>
+</g>
+</svg>

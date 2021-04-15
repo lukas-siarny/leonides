@@ -1,0 +1,89 @@
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes circleMotion {
+  /*0% {
+    transform: translate(-60%, -53%);
+  }
+  25% {
+    transform: translate(-45%, -53%);
+  }
+  50% {
+    transform: translate(-50%, -46%);
+  }
+  100% {
+    transform: translate(-60%, -53%);
+  }*/
+  100% {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }
+}
+
+@keyframes bookpage1 {
+  0% {
+    clip-path: polygon(
+      calc(100% + 1px) 0,
+      calc(100% + 1px) 10%,
+      calc(100% + 1px) 90%,
+      calc(100% + 1px) calc(100% + 1px)
+    );
+  }
+  100% {
+    clip-path: polygon(
+      0 0,
+      calc(100% + 1px) 0,
+      calc(100% + 1px) calc(100% + 1px),
+      0 calc(100% + 1px)
+    );
+  }
+}
+
+@keyframes bookpage2 {
+  0% {
+    clip-path: polygon(0 10%, 0 0, 0 calc(100% + 1px), 0 90%);
+  }
+  100% {
+    clip-path: polygon(
+      0 0,
+      calc(100% + 1px) 0,
+      calc(100% + 1px) calc(100% + 1px),
+      0 calc(100% + 1px)
+    );
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes arrows {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

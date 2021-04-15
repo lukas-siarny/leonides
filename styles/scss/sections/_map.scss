@@ -1,0 +1,31 @@
+#map {
+  height: 40rem;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.map {
+  &__zoom-control {
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+    @media (min-width: 600px) {
+      margin-left: 3rem;
+      margin-top: 3rem;
+    }
+  }
+
+  &__button {
+    width: 3rem;
+    height: 3rem;
+    background: #000;
+    color: #fff;
+    font-size: 1rem;
+    font-family: MyriadPro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    cursor: pointer;
+  }
+}
